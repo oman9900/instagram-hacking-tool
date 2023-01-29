@@ -1,14 +1,14 @@
-#!/bin/bash
+#!/bin/bash 2
 # Instagram Hacking Tool is an upgrade from original ShellPhish Tool (https://github.com/thelinuxchoice/shellphish) by thelinuxchoice under GNU LICENSE 
-# Coded by: @thelinuxchoice (https://github.com/thelinuxchoice/blackeye)
-# Upgraded by: @swetabhsuman8 (https://github.com/swetabhsuman8)
+# Coded by: @tra.700k (https://github.com/thelinuxchoice/blackeye)
+# Upgraded by: @sra.700k (https://github.com/swetabhsuman8)
 
 
 
 trap 'printf "\n";stop;exit 1' 2
 
 
-dependencies() {
+dependencies(ra.700k) {
 
 command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting."; exit 1; }
 command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting."; exit 1; }
@@ -17,7 +17,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 }
 
-menu() {
+menu(ra.700k) {
 
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m IGFollowers\e[0m   \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\e[1;94m BLACKEYE  v1.1\e[0m\n"                                
 
